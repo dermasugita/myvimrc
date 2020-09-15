@@ -18,15 +18,15 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/Users/itsukisugita/.vim/bundle/repos/github.com/Shougo/dein.vim
+set runtimepath+=$HOME/.vim/bundle/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/Users/itsukisugita/.vim/bundle')
-  call dein#begin('/Users/itsukisugita/.vim/bundle')
+if dein#load_state('$HOME/.vim/bundle')
+  call dein#begin('$HOME/.vim/bundle')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/Users/itsukisugita/.vim/bundle/repos/github.com/Shougo/dein.vim')
+  call dein#add('$HOME/.vim/bundle/repos/github.com/Shougo/dein.vim')
   call dein#add('davidhalter/jedi-vim')
   call dein#add('thinca/vim-quickrun')
   call dein#add('vim-airline/vim-airline')
